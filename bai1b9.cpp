@@ -7,7 +7,6 @@ int main(){
     cin>>n;
     if (n<=0){
         cout<<"n khong la so nguyen duong. Vui long nhap lai!"<<endl;
-        cin>>n;
     }
     }while(n<=0);
 
