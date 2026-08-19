@@ -14,7 +14,7 @@ int main(){
     }while(n!=secret_n && sl <7);
     if (n == secret_n){
         cout<<"Chuc mung ban da doan dung sau "<<sl<<"luot!!"<<endl;
-    }else {
-        cout<<"Ban da het luot doan.\n So can doan la:"<<secret_n<<endl;
+    }else{
+        cout<<"Ban da het luot doan. So can doan la: "<<secret_n<<endl;
     }
 }
