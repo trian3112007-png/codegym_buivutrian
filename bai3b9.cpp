@@ -14,7 +14,7 @@ int main(){
         a = b;
         b = x;
     }
-    while (b>0){
+    while (b!=0){
         int y = a % b;
         a = b;
         b = y;
